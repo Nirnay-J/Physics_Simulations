@@ -4,7 +4,7 @@ import matplotlib.animation as animation
 
 l = 1
 g = 9.8
-amplitude_theta = np.pi/4 #at 45 degrees
+amplitude_theta = np.pi/4
 phase = np.pi/4
 
 def position(t):
