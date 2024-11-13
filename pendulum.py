@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.animation as animation
 
+# Constant
 l = 1
 g = 9.8
 amplitude_theta = np.pi/4
