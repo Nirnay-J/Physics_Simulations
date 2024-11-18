@@ -14,6 +14,7 @@ def position(t):
 	pos = [l*np.sin(theta),-l*np.cos(theta)]
 	return pos
 
+# Setting up the ploting function for the pendulum
 t_range = np.linspace(0,10,1000)
 positions = np.array([position(t) for t in t_range])
 x_pos = [i[0] for i in positions]
