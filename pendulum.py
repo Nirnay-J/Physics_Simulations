@@ -20,6 +20,6 @@ positions = np.array([position(t) for t in t_range])
 x_pos = [i[0] for i in positions]
 y_pos = [i[1] for i in positions]
 
-# Plot creation for animation
+# Creating platform for animation of pendulum
 plt.scatter(x_pos,y_pos)
 plt.show()
