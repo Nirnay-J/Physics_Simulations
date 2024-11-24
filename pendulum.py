@@ -7,7 +7,6 @@ g = 9.8
 amplitude_theta = np.pi/4
 phase = np.pi/4
 
-# Function for defining the positions of the pendulum
 def position(t):
 	theta = amplitude_theta*np.sin(np.sqrt(g/l)*t+phase)
 	pos = [l*np.sin(theta),-l*np.cos(theta)]
