@@ -17,5 +17,7 @@ positions = np.array([position(t) for t in t_range])
 x_pos = [i[0] for i in positions]
 y_pos = [i[1] for i in positions]
 
+#
+
 plt.scatter(x_pos,y_pos)
 plt.show()
